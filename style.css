@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+
+#loginPage {
+    max-width: 400px;
+    margin: 5% auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+
+#todoListPage {
+    padding: 20px;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.list-group-item input[type="checkbox"] {
+    margin-right: 15px;
+}
